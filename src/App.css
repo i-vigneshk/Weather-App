@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+.searchIcon {
+  height: 5vh;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin:0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #243d61;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 350px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px black;
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  border: 1px solid rgb(0, 0, 0);
+  overflow: hidden;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.cityInput {
+  border: none;
+  display: flex;
+  outline: none;
+  flex: 1;
+  padding: 10px;
+}
+.search-icon {
+  padding: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+.image {
+  text-align: center;
+}
+.image img {
+  width: 100px; /* Set the desired width */
+  height: 100px; /* Set the desired height */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
+.temp,
+.location,
+.country {
+  margin-top: 4px;
+  font-size: 35px;
+  color: #333;
+  text-transform: uppercase;
+  text-align: center;
+}
+.location {
+  color: rgb(234, 176, 17);
+}
+.country {
+  color: #888;
+}
+.cord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.humidity-percentage,
+.wind-percentage,
+.cord div span:nth-child(2) {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+  padding: 5px;
+}
+.icon {
+  width: 30px;
+}
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.element {
+  text-align: center;
+}
